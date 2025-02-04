@@ -14,14 +14,14 @@ The target variable is insurance premium.
 
 We used this dataset to train a regression model for this capstone project. Based on the feature given, the model will predict how much insurance premium a customer should be charged.
 
-Conda is used as virtual environment and the depedencies needed was provided in [requirement.txt](!./requirements.txt) file.
+Conda is used as virtual environment and the depedencies needed was provided in [requirement.txt](requirements.txt) file.
 ```bash
 conda create --name ml-zoomcamp
 conda activate ml-zoomcamp
 pip install -r requirements.txt
 ```
 
-We used Docker container and build an image from the [Dockerfile](!./Dockerfile)
+We used Docker container and build an image from the [Dockerfile](Dockerfile)
 ```bash
 docker build -t capstone-project2 .
 ```
